@@ -1,5 +1,6 @@
 <html>
 <head>
+<script src="script.js"></script>	
 </head>
 <body bgcolor="pink"style ="border:3px solid black;"><br>
 <center><input type="image" src="/home/mca/Downloads/image.jpg"width="200" height="100" ><center>
@@ -10,7 +11,7 @@
 <label>Name:<input type="text" ></label><br><br>
 <label>Address:<textarea type="textarea"></textarea></label><br><br>
 <label> Email:<input type="email" ></label><br><br>
-<label>Phone No:<input type="tel"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required /></label><br><br>
+<label>Phone No:<input type="tel" /></label><br><br>
 <label>Date of Birth:<input type="date"></label><br><br>
 <label>Password:<input type="password" ></label><br><br>
 <label> Conform Password:<input type="password" ></label><br><br>
@@ -35,9 +36,11 @@
 <option value="BCA">Bachiler of Computer Application</option>
 <option value="FD">Fashion Designing</option>
 </select><br> <br>
-<input type="submit" value="Submit">
-<input type="reset" value="Reset" name="Reset" />
+<input  type= "button" value = "submit" onclick=buttonValidation()>
+<input type="reset" value="Reset" name="Reset">
+
 </form>
+
 </body>
 </html>
 
